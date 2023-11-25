@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid #868e9630;
+}
+
+.bg-body-tertiary {
+    background-color: transparent !important;
+}
+
+.navbar-nav {
+    gap: 25px !important;
+}
+
+.nav-link {
+    color: #000 !important;
+    font-weight: 600;
+    font-size: 14px;
+
+    &:hover {
+        color: #007bff !important;
+    }
+}
+
+.sec-one {
+    padding: 60px 0;
+    background-image: url("/assets/img/header-bg.jpg");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .sec-one-content {
+        padding: 60px 0;
+
+        .sec-one-text-content {
+            margin: 40px 0;
+            padding: 60px 0;
+
+            h1 {
+                font-size: 48px;
+                font-weight: 700;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.sec-two {
+    background-color: #fff;
+    padding: 60px;
+
+    .sec-two-content {
+        text-align: center;
+    }
+
+    .sec-one-hero-text {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .cardss {
+        padding: 60px;
+        display: flex;
+        justify-content: center;
+
+        .rowDiv {
+            display: flex !important;
+            flex-wrap: wrap !important;
+
+            .col {
+                margin: 20px 0 !important;
+            }
+        }
+
+        .cardd {
+            width: 340px;
+            margin: 0 auto;
+
+            .divImg {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .divText {
+                text-align: start;
+
+                p {
+                    color: #000;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+
+                span {
+                    background-color: #000;
+                    display: inline-block;
+                    margin: 5px 0 !important;
+                    padding: 2px;
+                    color: #fff;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+
+.sec-three {
+    padding: 60px 0;
+    background-color: #F9F9FF;
+
+    .sec-three-content {
+        padding: 60px 0;
+
+        .sec-three-hero-text {
+            text-align: center;
+        }
+
+        .btnDiv {
+            display: flex;
+            justify-content: center;
+
+            button {
+                width: 142px;
+                height: 44px;
+                background-image: -webkit-linear-gradient(45deg, #62bdfc 0%, #8490ff 100%);
+                border: 0;
+                margin: 0 auto;
+                border-radius: 50px;
+                color: #fff;
+            }
+        }
+
+        .cardss {
+            padding: 60px 0;
+            display: flex;
+            flex-wrap: wrap;
+
+            .col {
+                margin: 20px 0;
+            }
+
+            .card-content {
+                display: flex;
+                gap: 10px;
+                width: 500px;
+                margin: 0 auto;
+
+                .divText {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+}
+
+.sec-four {
+    padding: 40px 0;
+
+    .sec-four-content {
+        padding: 40px 0;
+
+        .sec-four-text-content {
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        .sec-four-cards {
+            .cardd {
+                width: 250px;
+                padding: 60px 0;
+
+                .cardimg {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .cardtext {
+                    span {
+                        padding: 2px 4px;
+                        background-color: #000;
+                        color: #fff;
+                        font-size: 14px;
+                        display: inline-block;
+                        margin: 10px 0;
+                    }
+
+                    h4 {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sec-five {
+    .sec-five-content {
+        .sec-five-text-content {
+            padding: 40px 0;
+            text-align: center;
+
+            .img-cards {
+                display: flex !important;
+
+                .card-box {
+                    width: 250px;
+
+                    .imgDiv {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+footer {
+    background-color: #222222;
+    padding: 60px 0;
+
+    .footer-content {
+        padding: 40px 0;
+
+        .footer-top-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 0;
+            flex-wrap: wrap;
+            gap: 30px;
+
+            ul {
+                list-style: none;
+
+                li {
+                    color: #fff;
+
+                    strong {
+                        padding-bottom: 20px;
+                        display: inline-block;
+                    }
+
+                    p {
+                        width: 90%;
+                        display: inline-block;
+                    }
+
+                }
+
+                .footer-li-img {
+                    margin-bottom: 10px;
+                    display: flex;
+                    gap: 10px;
+                }
+
+                .formInp {
+                    display: flex;
+                    gap: 30px;
+                    flex-wrap: wrap;
+
+                    input {
+                        width: 330px;
+                        height: 40px;
+                        border-radius: 20px;
+                        border: 0;
+                        outline: 0;
+                        padding: 0 10px;
+                    }
+
+                    button {
+                        height: 40px;
+                        border: 0;
+                        outline: 0;
+                        width: 169px;
+                        border-radius: 20px;
+                        background-image: -webkit-linear-gradient(45deg, #62bdfc 0%, #8490ff 100%);
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .sec-two {
+        background-color: #fff;
+        padding: 60px;
+
+        .sec-two-content {
+            text-align: center;
+        }
+
+        .sec-one-hero-text {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .cardss {
+            padding: 60px;
+            display: flex;
+            justify-content: center;
+
+            .rowDiv {
+                display: flex !important;
+                flex-wrap: wrap !important;
+
+                .col {
+                    margin: 20px 0 !important;
+                }
+            }
+
+            .cardd {
+                width: 250px;
+                margin: 0 auto;
+
+                .divImg {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .divText {
+                    p {
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+
+                    span {
+                        background-color: #000;
+                        display: inline-block;
+                        margin: 5px 0 !important;
+                        padding: 2px;
+                        color: #fff;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec-three {
+        padding: 60px 0;
+        background-color: #F9F9FF;
+
+        .sec-three-content {
+            padding: 60px 0;
+
+            .sec-three-hero-text {
+                text-align: center;
+            }
+
+            .cardss {
+                padding: 60px 0;
+                display: flex;
+                flex-wrap: wrap;
+
+                .col {
+                    margin: 20px 0;
+                }
+
+                .card-content {
+                    display: block;
+                    width: 200px;
+                    margin: 0 auto;
+
+                    .divText {
+                        width: 100%;
+                        margin-top: 20px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    footer {
+        .footer-content {
+            .footer-top-content {
+
+                ul {
+                    .footer-li-img {
+                        img{
+                            width: 40px;
+                        }
+                    }
+
+                    .formInp {
+                        input {
+                            width: 90%;
+                        }
+
+                        button {
+                            width: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}
